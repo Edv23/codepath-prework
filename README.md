@@ -1,14 +1,12 @@
 ## Hello from Erick
 
 ### App Description
-`TODO://` The app has a coustom text in a label sayiing "🌎 Hello from Erick!🌎." Along with 3 buttons that can change the background color, the text color, and the text in the label. 
+The app has a coustom text in a label sayiing "🌎 Hello from Erick!🌎." Along with 3 buttons that can change the background color, the text color, and the text in the label. 
  
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="http://g.recordit.co/JO9wLY9BI6.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
