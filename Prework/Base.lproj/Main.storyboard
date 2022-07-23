@@ -16,25 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLx-mO-tvS">
-                                <rect key="frame" x="20" y="109" width="374" height="87"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🌎 Hello World 🌎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-lB-jJP">
-                                        <rect key="frame" x="43" y="25" width="286" height="37"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="29"/>
-                                        <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.75686275960000005" green="0.8392156959" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="leading" secondItem="bLx-mO-tvS" secondAttribute="leading" constant="43" id="J8x-7T-Bgc"/>
-                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="top" secondItem="bLx-mO-tvS" secondAttribute="top" constant="25" id="WkH-D7-laJ"/>
-                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="centerY" secondItem="bLx-mO-tvS" secondAttribute="centerY" id="mW8-2W-fOR"/>
-                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="centerX" secondItem="bLx-mO-tvS" secondAttribute="centerX" constant="-1" id="mWG-zW-ONd"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-Es-KON">
                                 <rect key="frame" x="20" y="429" width="374" height="52"/>
                                 <constraints>
@@ -82,6 +63,25 @@
                                     <action selector="change_lbl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ewa-nF-Fhf"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLx-mO-tvS">
+                                <rect key="frame" x="20" y="109" width="374" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🌎 Hello from Erick! 🌎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-lB-jJP">
+                                        <rect key="frame" x="26" y="25" width="323" height="30"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                        <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75686275960000005" green="0.8392156959" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="leading" secondItem="bLx-mO-tvS" secondAttribute="leading" constant="26" id="J8x-7T-Bgc"/>
+                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="top" secondItem="bLx-mO-tvS" secondAttribute="top" constant="25" id="WkH-D7-laJ"/>
+                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="centerY" secondItem="bLx-mO-tvS" secondAttribute="centerY" id="mW8-2W-fOR"/>
+                                    <constraint firstItem="QaE-lB-jJP" firstAttribute="centerX" secondItem="bLx-mO-tvS" secondAttribute="centerX" constant="0.5" id="mWG-zW-ONd"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.75686275960000005" green="0.8392156959" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
