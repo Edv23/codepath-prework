@@ -1,8 +1,8 @@
-## NAME_OF_YOUR_APP_HERE
+## Hello from Erick
 
 ### App Description
-`TODO://` Add app description
-
+`TODO://` The app has a coustom text in a label sayiing "🌎 Hello from Erick!🌎." Along with 3 buttons that can change the background color, the text color, and the text in the label. 
+ 
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
