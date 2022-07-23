@@ -1,7 +1,7 @@
 ## Hello from Erick
 
 ### App Description
-The app has a coustom text in a label sayiing "🌎 Hello from Erick!🌎." Along with 3 buttons that can change the background color, the text color, and the text in the label. 
+The app has a custom text in a label saying "🌎 Hello from Erick!🌎." Along with three buttons that can change the background color, the text color, and the text on the label.
  
 ### App Walk-though
 
